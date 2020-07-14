@@ -6,6 +6,6 @@ export const apiAuth = axios.create({
 })
 
 export const apiToken = axios.create({
-  baseURL:'https://api.instagram.com/oauth/access_token',
+  baseURL:'https://graph.instagram.com/access_token',
   headers: {'Content-Type': 'application/x-www-form-urlencoded'}
 })
