@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import {apiAuth, apiToken} from './services/api';
+import {apiToken} from './services/api';
 import './App.css';
 
 function App() {
