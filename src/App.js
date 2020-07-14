@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from 'react';
 import {apiToken} from './services/api';
-import './App.css';
 
 function App() {
  const [client_id,setClientId] = useState();
